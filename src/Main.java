@@ -43,7 +43,7 @@ public class Main {
         System.out.println("y=" + y);
     }
 
-    public static int goLeftAndRight(boolean isLeft, boolean isWarped, int x) {//might have reference problems
+    public static int goLeftAndRight(boolean isLeft, boolean isWarped, int x) {
         if (isWarped)
             isLeft = !isLeft;
         if (isLeft) x--;
@@ -51,7 +51,7 @@ public class Main {
         return x;
     }
 
-    public static int goUpAndDown(boolean isUp, boolean isWarped, int y) {//might have reference problems
+    public static int goUpAndDown(boolean isUp, boolean isWarped, int y) {
         if (isWarped)
             isUp = !isUp;
         if (isUp) y--;
